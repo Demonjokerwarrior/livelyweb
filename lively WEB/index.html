@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Professional Profile</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link to Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        /* Video background styling */
+        .video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+
+        /* Content styling */
+        .content {
+            position: relative;
+            z-index: 1;
+            color: #ffffff;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        /* Profile image styling */
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Text background styling */
+        .text-background {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 30px;
+            border-radius: 20px;
+            max-width: 80%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Headings and paragraphs */
+        h1 {
+            font-size: 2.5rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+        }
+
+        /* Content sections for scrolling */
+        .section {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.6);
+            color: white;
+            position: relative;
+            flex-direction: column;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .section p {
+            max-width: 600px;
+            font-size: 1.2rem;
+        }
+
+        /* Social media links styling */
+        .social-links {
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            color: white;
+            margin: 0 10px;
+            font-size: 1.5rem;
+            transition: color 0.3s;
+        }
+
+        .social-links a:hover {
+            color: #007bff;
+        }
+
+        /* Chat button styling */
+        .chat-button {
+            margin-top: 20px;
+        }
+
+        .btn-chat {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            border-radius: 10px;
+            border: none;
+            transition: background-color 0.3s;
+            text-decoration: none;
+        }
+
+        .btn-chat:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Video background -->
+    <video autoplay loop muted class="video-background">
+        <source src="tec.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <!-- Main content (first slide) -->
+    <section class="content">
+        <div class="text-background">
+            <img src="121.png" alt="Profile Picture" class="profile-img mb-4">
+
+            <h1><b>DEMON WARRIOR<b></h1>
+            <p><b>Hi, I'm raavanan, a Cyber Security analyst based in Rathinam RSMART. I specialize in Ethical Hacking.</b></p>
+            <!-- Social media links -->
+            <div class="social-links">
+                <a href="https://www.instagram.com/_tom_41__/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/tommzz-23" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/imran-farhath-496103270?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a><br>
+                <script src="https://tryhackme.com/badge/3252070"></script>
+            </div>
+        </div>
+    </section>
+
+    <!-- Second slide with side boxes -->
+    <section class="section">
+        <div class="side-box">
+            <h2>About Me</h2>
+            <pre>
+Certainly! Here's a more detailed version of your "About Me" section:
+I am a dedicated cybersecurity professional with a strong background in ethical hacking, penetration testing, and network security.
+My passion for cybersecurity drives me to stay at the forefront of the latest security trends and advancements.
+I thrive on exploring new technologies and methodologies to identify and address vulnerabilities, ensuring robust protection against potential threats.
+            </pre>
+        </div>
+
+        <div class="side-box">
+            <h2>My Skills</h2>
+            <p>
+                - Ethical Hacking<br>
+                - Penetration Testing<br>
+                - Network Security<br>
+                - Cybersecurity Analysis<br>
+                - Incident Response<br>
+                - Vulnerability Assessment
+            </p>
+        </div>
+    </section>
+
+    <!-- Additional content sections -->
+    <section class="section">
+        <h1>My Projects</h1>
+        <p>
+            Here are some of the projects I've worked on that highlight my skills in cybersecurity:
+            <ul>
+                <li>Project 1: Ethical Hacking Training Program</li>
+                <li>Project 2: Advanced Penetration Testing Toolkit</li>
+                <li>Project 3: Cybersecurity Awareness Campaign</li>
+            </ul>
+        </p>
+    </section>
+
+    <section class="section">
+        <h1>Contact Me</h1>
+        <p>
+            If you're interested in collaborating or learning more about my work, feel free to reach out to me at:
+            <br>Email: imran@example.com
+            <br>LinkedIn: linkedin.com/in/imranfarhath
+        </p>
+
+        <!-- Chat with Me Button -->
+        <div class="chat-button">
+            <a href="http://127.0.0.1:5000" target="_blank" class="btn-chat">Chat with Me</a>
+        </div>
+    </section>
+
+    <!-- Bootstrap and jQuery scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- JavaScript for scrolling -->
+    <script>
+        document.addEventListener('keydown', function(event) {
+            if (event.code === 'Space') {
+                event.preventDefault();
+                window.scrollBy({
+                    top: window.innerHeight,
+                    behavior: 'smooth'
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>
